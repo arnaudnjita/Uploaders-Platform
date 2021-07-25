@@ -1,0 +1,47 @@
+nav{
+  display: grid;
+  grid-template-columns: auto max-content;
+  align-content: center;
+  background-color: #1230E8;
+  height: 60px;
+}
+.links{
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  align-content: center;
+}
+a{
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: larger;
+}
+.active{
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+
+.logo{
+  display: grid;
+  align-content: center;
+}
+.main-div{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0px 100px;
+}
+table{
+  width: 100%;
+  margin-top: 50px;
+}
+thead{
+  text-align: left;
+  font-size: larger;
+  font-weight: normal;
+}
+table, th, td{
+  border-bottom: 1px solid #1230E8;
+  border-collapse: collapse;
+  padding: 10px 2px;
+}

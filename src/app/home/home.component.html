@@ -1,0 +1,38 @@
+<nav>
+  <div class="logo">
+    <img src="./assets/logo.jpeg" height="50px" style="border-radius: 50px; margin-left: 30px;" alt="">
+  </div>
+  <div class="links">
+    <a routerLink="/home" class="active">Home</a>
+    <a routerLink="/uploads">My uploads</a>
+    <a routerLink="/signup">Logout</a>
+  </div>
+</nav>
+<div class="main-div">
+  <div class="form-div">
+    <p>Please kindly fill in the form below to  upload a question or answer file</p>
+    <form action="" method="post">
+      <div class="labels"><label for="name-of-paper">Name of paper:</label></div>
+      <input type="text" name="name-of-paper" id="" style="width: 285px"><br>
+      <div class="labels"><label for="year">Year:</label></div>
+      <input type="text" name="year" id="" style="width: 80px"><br>
+      <div class="labels"><label for="category">Category:</label></div>
+      <select name="category" id="" style="width: 150px">
+        <option value="">Engineering</option>
+        <option value="">Medicine</option>
+        <option value="">Agriculture</option>
+      </select><br>
+      <div class="desc">
+        <div class="labels"><label for="description">Description:</label></div>
+      <textarea name="" id="" cols="35" rows="1"></textarea>
+      </div><br>
+      <div class="labels"><label for="question">Question file:</label></div>
+      <input type="file" name="question" id="" style="width: 285px"><br>
+      <div class="labels"><label for="question">Answer file:</label></div>
+      <input type="file" name="answer" id="" style="width: 285px"><br>
+      <div class="btn">
+        <button routerLink="/uploads">Upload</button>
+      </div>
+    </form>
+  </div>
+</div>
