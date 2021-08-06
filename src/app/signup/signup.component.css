@@ -96,9 +96,10 @@ img{
   height: fit-content;
   padding: 0 40px 40px 40px;
   border-radius: 5px;
+  /* width: 100vw; */
 }
 input{
-  width: 250px;
+  width: 230px;
   padding: 10px 10px;
   border-radius: 5px;
   border: none;
@@ -117,7 +118,7 @@ input{
   margin: 20px 10px;
 }
 button{
-  width: 220px;
+  width: 250px;
   padding: 10px 20px;
   margin-top: 10px;
   background-color: #1230E8;
