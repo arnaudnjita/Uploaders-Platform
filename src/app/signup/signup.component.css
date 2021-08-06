@@ -21,7 +21,7 @@
   text-align: center;
   background-color: #1495FF;
   height: 500px;
-  width: 535px;
+  padding: 0 100px;
   border-radius: 10px;
 }
 input{
@@ -57,4 +57,78 @@ button{
 button:hover{
   cursor: pointer;
   box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.802);
+}
+
+@media only screen and (max-width: 600px) {
+img{
+  visibility: hidden;
+  height: 0px;
+}
+.main-div
+  {
+    display: grid;
+    width: 100vw;
+    height: max-content;
+    grid-template-columns: max-content;
+  }
+.i-div{
+  display: grid;
+  justify-content: center;
+  height: max-content;
+  margin: 10px 0 0 0 ;
+  visibility: hidden;
+  height: 0;
+}
+.illus-div{
+  text-align: center;
+  width: 100vw;
+  visibility: hidden;
+  height: 0;
+}
+.s-div{
+  display: grid;
+  justify-content: center;
+  margin: 50px 0px 0px 0;
+}
+.signup-div{
+  text-align: center;
+  background-color: #1495FF;
+  height: fit-content;
+  padding: 0 40px 40px 40px;
+  border-radius: 5px;
+}
+input{
+  width: 200px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 20px;
+  box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.57);
+}
+.signup-div>h1{
+  margin: 30px 0;
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.illus-div>h1{
+  color: #1230E8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 20px 10px;
+}
+button{
+  width: 220px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #1230E8;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: large;
+
+}
+button:hover{
+  cursor: pointer;
+  box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.802);
+}
 }
